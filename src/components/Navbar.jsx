@@ -23,16 +23,6 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo-area">
-        <img 
-          src="/src/logo.png" 
-          alt="Harkan Medya Logo" 
-          className="nav-logo"
-          style={{ 
-            width: '36px', 
-            height: 'auto',
-            filter: 'brightness(0) saturate(100%) invert(55%) sepia(75%) saturate(1691%) hue-rotate(346deg) brightness(101%) contrast(101%)'
-          }}
-        />
         <div className="logo-text">
           <span className="logo-title">HARKAN MEDYA</span>
           <span className="logo-subtitle">YAZILIM & DANIŞMANLIK</span>
