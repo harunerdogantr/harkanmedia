@@ -23,13 +23,16 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="logo-area">
-        <svg width="36" height="36" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g>
-            <polygon points="24,4 44,14 24,24 4,14" fill="#FF6B2C"/>
-            <polygon points="24,24 44,14 44,34 24,44" fill="#FF8C42"/>
-            <polygon points="24,24 4,14 4,34 24,44" fill="#FF6B2C"/>
-          </g>
-        </svg>
+        <img 
+          src="/src/logo.png" 
+          alt="Harkan Medya Logo" 
+          className="nav-logo"
+          style={{ 
+            width: '36px', 
+            height: 'auto',
+            filter: 'brightness(0) saturate(100%) invert(55%) sepia(75%) saturate(1691%) hue-rotate(346deg) brightness(101%) contrast(101%)'
+          }}
+        />
         <div className="logo-text">
           <span className="logo-title">HARKAN MEDYA</span>
           <span className="logo-subtitle">YAZILIM & DANIŞMANLIK</span>

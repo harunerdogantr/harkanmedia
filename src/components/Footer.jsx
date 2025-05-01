@@ -4,60 +4,34 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        {/* Logo ve Şirket Bilgileri */}
+        {/* Company Info Section */}
         <div className="footer-company">
-          <img src="/logo.png" alt="Tork Medya" className="footer-logo" />
-          <p className="footer-description">
-            Tork Yazılım, Medya ve Danışmanlık
-          </p>
-          <img 
-            src="/drd-logo.png" 
-            alt="Dijital Reklamcılar Derneği" 
-            className="footer-drd-logo" 
-          />
-          <p className="footer-drd-text">
-            Dijital Reklamcılar Derneği Üyesidir.
-          </p>
-          <div className="footer-social">
-            <a href="#instagram" className="social-link">
-              <i className="fab fa-instagram"></i>
-            </a>
-            <a href="#facebook" className="social-link">
-              <i className="fab fa-facebook-f"></i>
-            </a>
-            <a href="#linkedin" className="social-link">
-              <i className="fab fa-linkedin-in"></i>
-            </a>
-            <a href="#twitter" className="social-link">
-              <i className="fab fa-twitter"></i>
-            </a>
+          <div className="footer-branding">
+            <img src="/src/ca2a4b0e-f83d-4f14-9bbd-7f83bba6df9c.png" alt="Harkan Medya" className="footer-logo" />
+            <p className="footer-description">
+              Harkan Yazılım, Medya ve Danışmanlık
+            </p>
+          </div>
+          
+          <div className="footer-certifications">
+            <p className="footer-drd-text">
+              Dijital Reklamcılar Derneği Üyesidir.
+            </p>
           </div>
         </div>
 
-        {/* İletişim Bilgileri */}
+        {/* Contact Section */}
         <div className="footer-section">
           <h3 className="footer-title">İletişim</h3>
           <div className="footer-links">
-            <a href="tel:08503030493" className="footer-link">
-              <i className="fas fa-phone"></i>
-              0850 303 04 93
-            </a>
-            <a href="mailto:info@torkmedya.com" className="footer-link">
-              <i className="fas fa-envelope"></i>
-              info@torkmedya.com
-            </a>
-            <a href="#adres" className="footer-link">
-              <i className="fas fa-map-marker-alt"></i>
-              Adresimiz
-            </a>
+            <a href="tel:08503030493" className="footer-link">0850 303 04 93</a>
+            <a href="mailto:info@harkanmedya.com" className="footer-link">info@harkanmedya.com</a>
+            <a href="#adres" className="footer-link">Adresimiz</a>
           </div>
-          <button className="footer-contact-btn">
-            <i className="fas fa-comments"></i>
-            İLETİŞİME GEÇİN
-          </button>
+          <button className="footer-contact-btn">İLETİŞİME GEÇİN</button>
         </div>
 
-        {/* Hizmetlerimiz */}
+        {/* Services Section */}
         <div className="footer-section">
           <h3 className="footer-title">Hizmetlerimiz</h3>
           <div className="footer-links">
@@ -69,7 +43,7 @@ function Footer() {
           </div>
         </div>
 
-        {/* Destek */}
+        {/* Support Section */}
         <div className="footer-section">
           <h3 className="footer-title">Destek</h3>
           <div className="footer-links">
@@ -81,10 +55,10 @@ function Footer() {
         </div>
       </div>
 
-      {/* Alt Footer */}
+      {/* Bottom Footer */}
       <div className="footer-bottom">
-        <p className="footer-copyright">Tüm Hakları Saklıdır.</p>
-        <p className="footer-brand">© 2024 Tork Yazılım, Medya ve Danışmanlık</p>
+        <p className="footer-copyright">© 2024 Harkan Yazılım, Medya ve Danışmanlık</p>
+        <p className="footer-rights">Tüm Hakları Saklıdır.</p>
       </div>
     </footer>
   );
