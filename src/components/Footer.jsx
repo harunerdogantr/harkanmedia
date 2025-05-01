@@ -57,6 +57,7 @@ function Footer() {
 
       {/* Bottom Footer */}
       <div className="footer-bottom">
+        
         <p className="footer-copyright">© 2024 Harkan Yazılım, Medya ve Danışmanlık</p>
         <p className="footer-rights">Tüm Hakları Saklıdır.</p>
       </div>
