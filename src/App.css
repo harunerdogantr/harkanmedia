@@ -1572,3 +1572,149 @@ a[href^="mailto:"]:hover {
 .social-icon i {
   display: none;
 }
+
+/* About Section Styles */
+.about-section {
+  padding: 0 300px;
+  background-color: #fff;
+  margin-top: 210px;
+  margin-bottom: 80px;
+}
+
+.about-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.about-header h1 {
+  font-size: 48px;
+  color: #FF3B1D;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+.breadcrumb {
+  color: #666;
+  font-size: 16px;
+}
+
+.breadcrumb .separator {
+  margin: 0 10px;
+  color: #ff4a4a;
+}
+
+.breadcrumb .active {
+  color: #ff4a4a;
+}
+
+.about-content-wrapper {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+  padding: 0 20px;
+}
+
+.about-left-content {
+  flex: 1;
+  position: relative;
+}
+
+.red-bar {
+  width: 60px;
+  height: 4px;
+  background-color: #ff4a4a;
+  margin-bottom: 20px;
+}
+
+.about-left-content h2 {
+  font-size: 36px;
+  color: #232323;
+  margin-bottom: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.about-left-content p {
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.about-right-content {
+  flex: 1;
+  max-width: 500px;
+}
+
+.about-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1600px) {
+  .about-section {
+    padding: 0 200px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .about-section {
+    padding: 0 150px;
+    margin-top: 190px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-section {
+    padding: 0 100px;
+    margin-top: 170px;
+  }
+  .about-header {
+    margin-bottom: 120px;
+  }
+  .about-content-wrapper {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .about-right-content {
+    max-width: 100%;
+  }
+  .about-left-content h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 0 50px;
+    margin-top: 150px;
+    margin-bottom: 60px;
+  }
+  .about-header {
+    margin-bottom: 80px;
+  }
+  .about-header h1 {
+    font-size: 36px;
+  }
+  .about-left-content h2 {
+    font-size: 26px;
+  }
+  .about-content-wrapper {
+    padding: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-section {
+    padding: 0 30px;
+    margin-top: 130px;
+    margin-bottom: 40px;
+  }
+}

@@ -30,7 +30,7 @@ function Services() {
     },
     {
       title: "İYS Çözümleri",
-      description: "Tork Yazılım olarak sms, arama, e-posta gibi müşteri verilerinizi Tork Soft ile İYS'ye (İleti Yönetim Sistemi) entegre ediyoruz.",
+      description: "Harkan Yazılım olarak sms, arama, e-posta gibi müşteri verilerinizi Harkan Soft ile İYS'ye (İleti Yönetim Sistemi) entegre ediyoruz.",
       iconName: "iys"
     }
   ];

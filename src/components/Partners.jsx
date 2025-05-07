@@ -10,15 +10,15 @@ function Partners() {
       </div>
       <div className="partners-logos">
         <img
-          src="https://torkmedya.com/wp-content/uploads/2024/09/google-partner_tork-medya.png"
+          className="google-partner"
+          src="https://harkanmedya.com/wp-content/uploads/2024/09/google-partner_harkan-medya.png"
           alt="Google Partner"
-          className="partner-logo google-partner"
         />
         <div className="partner-logo meta-partner">
           <img
-            src="https://torkmedya.com/wp-content/uploads/2024/09/tork-medya-partner-meta-logo.webp"
-            alt="Meta"
             className="meta-icon"
+            src="https://harkanmedya.com/wp-content/uploads/2024/09/harkan-medya-partner-meta-logo.webp"
+            alt="Meta Partner"
           />
           <div className="meta-text">
             <span className="meta-title">Meta</span>

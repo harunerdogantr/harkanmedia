@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,12 +23,12 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo-area">
+      <Link to="/" className="logo-area" style={{ textDecoration: 'none' }}>
         <div className="logo-text">
           <span className="logo-title">HARKAN MEDYA</span>
           <span className="logo-subtitle">YAZILIM & DANIŞMANLIK</span>
         </div>
-      </div>
+      </Link>
       <div className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
         <div
           className="nav-item-dropdown-wrapper"
@@ -44,8 +45,8 @@ function Navbar() {
           </div>
           {dropdownOpen && (
             <div className="dropdown-menu">
-              <a href="#hakkimizda">Hakkımızda</a>
-              <a href="#partnerlerimiz">Partnerlerimiz</a>
+              <Link to="/hakkimizda">Hakkımızda</Link>
+              <Link to="/partnerlerimiz">Partnerlerimiz</Link>
             </div>
           )}
         </div>
