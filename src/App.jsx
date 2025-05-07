@@ -20,7 +20,6 @@ function App() {
               <Hero />
               <References />
               <Services />
-              <Partners />
               <Contact />
             </>
           } />
