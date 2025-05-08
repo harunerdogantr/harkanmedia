@@ -8,6 +8,11 @@ import Partners from './pages/Partners';
 import Footer from './components/Footer';
 import About from './components/About';
 import Contact from './pages/Contact';
+import FacebookAds from './pages/FacebookAds';
+import GoogleAds from './pages/GoogleAds';
+import ABTest from './pages/ABTest';
+import DataAnalysis from './pages/DataAnalysis';
+import DomainHosting from './pages/DomainHosting';
 
 function App() {
   return (
@@ -25,6 +30,11 @@ function App() {
           } />
           <Route path="/hakkimizda" element={<About />} />
           <Route path="/partnerlerimiz" element={<Partners />} />
+          <Route path="/facebook-reklam-optimizasyonu" element={<FacebookAds />} />
+          <Route path="/google-ads-optimizasyonu" element={<GoogleAds />} />
+          <Route path="/ab-testi" element={<ABTest />} />
+          <Route path="/veri-analizi" element={<DataAnalysis />} />
+          <Route path="/domain-hosting" element={<DomainHosting />} />
         </Routes>
         <Footer />
       </div>

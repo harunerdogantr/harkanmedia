@@ -90,8 +90,8 @@ function Navbar() {
                 </a>
                 {optimizasyonOpen && (
                   <div className="dropdown-menu right">
-                    <a href="#facebook">Facebook Reklamları Optimizasyonu</a>
-                    <a href="#google">Google Ads Optimizasyonu</a>
+                    <Link to="/facebook-reklam-optimizasyonu">Facebook Reklamları Optimizasyonu</Link>
+                    <Link to="/google-ads-optimizasyonu">Google Ads Optimizasyonu</Link>
                   </div>
                 )}
               </div>
@@ -115,13 +115,12 @@ function Navbar() {
                 </a>
                 {veriAnaliziOpen && (
                   <div className="dropdown-menu right">
-                    <a href="#ab-testi">A / B Testi</a>
-                    <a href="#veri-analizi-2">Veri Analizi</a>
-                    <a href="#tahminleme">Tahminleme Modelleri</a>
+                    <Link to="/veri-analizi">Veri Analizi</Link>
+                    <Link to="/ab-testi">A / B Testi</Link>
                   </div>
                 )}
               </div>
-              <a href="#domain-hosting">Domain & Hosting Yönetimi</a>
+              <Link to="/domain-hosting">Domain & Hosting Yönetimi</Link>
               <a href="#yazilim-danismanligi">Yazılım Danışmanlığı</a>
               <a href="#raporlama">Raporlama</a>
             </div>
