@@ -41,7 +41,7 @@ function Navbar() {
           }}
         >
           <div className="nav-item">
-            <a href="#about">Bizi Tanıyın {downArrowSVG}</a>
+            <Link to="/hakkimizda">Bizi Tanıyın {downArrowSVG}</Link>
           </div>
           {dropdownOpen && (
             <div className="dropdown-menu">
@@ -66,7 +66,7 @@ function Navbar() {
           }}
         >
           <div className="nav-item">
-            <a href="#what-we-do">Neler Yapıyoruz ? {downArrowSVG}</a>
+            <Link to="/#what-we-do">Neler Yapıyoruz ? {downArrowSVG}</Link>
           </div>
           {whatWeDoOpen && (
             <div className="dropdown-menu">
@@ -75,7 +75,7 @@ function Navbar() {
                 onMouseEnter={() => setOptimizasyonOpen(true)}
                 onMouseLeave={() => setOptimizasyonOpen(false)}
               >
-                <a href="#optimizasyon">
+                <Link to="/#optimizasyon">
                   Optimizasyon
                   <svg 
                     width="14" 
@@ -87,7 +87,7 @@ function Navbar() {
                   >
                     <path d="M6 8L10 12L14 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
-                </a>
+                </Link>
                 {optimizasyonOpen && (
                   <div className="dropdown-menu right">
                     <Link to="/facebook-reklam-optimizasyonu">Facebook Reklamları Optimizasyonu</Link>
@@ -100,7 +100,7 @@ function Navbar() {
                 onMouseEnter={() => setVeriAnaliziOpen(true)}
                 onMouseLeave={() => setVeriAnaliziOpen(false)}
               >
-                <a href="#veri-analizi">
+                <Link to="/#veri-analizi">
                   Veri Analizi
                   <svg 
                     width="14" 
@@ -112,17 +112,18 @@ function Navbar() {
                   >
                     <path d="M6 8L10 12L14 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
-                </a>
+                </Link>
                 {veriAnaliziOpen && (
                   <div className="dropdown-menu right">
                     <Link to="/veri-analizi">Veri Analizi</Link>
                     <Link to="/ab-testi">A / B Testi</Link>
+                    <Link to="/veri-modelleme">Veri Modelleme</Link>
                   </div>
                 )}
               </div>
               <Link to="/domain-hosting">Domain & Hosting Yönetimi</Link>
-              <a href="#yazilim-danismanligi">Yazılım Danışmanlığı</a>
-              <a href="#raporlama">Raporlama</a>
+              <Link to="/yazilim-danismanligi">Yazılım Danışmanlığı</Link>
+              <Link to="/raporlama">Raporlama</Link>
             </div>
           )}
         </div>
@@ -141,17 +142,17 @@ function Navbar() {
           }}
         >
           <div className="nav-item">
-            <a href="#services">Hizmetlerimiz {downArrowSVG}</a>
+            <Link to="/#services">Hizmetlerimiz {downArrowSVG}</Link>
           </div>
           {hizmetlerimizOpen && (
             <div className="dropdown-menu">
-              <a href="#seo">Arama Motoru Optimizasyonu</a>
+              <Link to="/#seo">Arama Motoru Optimizasyonu</Link>
               <div 
                 className="dropdown-submenu"
                 onMouseEnter={() => setGoogleReklamOpen(true)}
                 onMouseLeave={() => setGoogleReklamOpen(false)}
               >
-                <a href="#google-reklam">
+                <Link to="/#google-reklam">
                   Google Reklamları
                   <svg 
                     width="14" 
@@ -163,28 +164,28 @@ function Navbar() {
                   >
                     <path d="M6 8L10 12L14 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
-                </a>
+                </Link>
                 {googleReklamOpen && (
                   <div className="dropdown-menu right">
-                    <a href="#facebook-reklam">Facebook Reklamları</a>
-                    <a href="#instagram-reklam">Instagram Reklamları</a>
-                    <a href="#linkedin-reklam">Linkedin Reklamları</a>
+                    <Link to="/#facebook-reklam">Facebook Reklamları</Link>
+                    <Link to="/#instagram-reklam">Instagram Reklamları</Link>
+                    <Link to="/#linkedin-reklam">Linkedin Reklamları</Link>
                   </div>
                 )}
               </div>
-              <a href="#sosyal-medya">Sosyal Medya Reklamları</a>
-              <a href="#local-seo">Google Local SEO</a>
-              <a href="#iys">İYS Çözümleri</a>
-              <a href="#dijital-pazarlama">Dijital Pazarlama</a>
-              <a href="#web-analitik">Web Analitiği</a>
-              <a href="#mobil-analitik">Mobil Analitiği</a>
-              <a href="#tum-hizmetler">Tüm Hizmetlerimiz</a>
+              <Link to="/#sosyal-medya">Sosyal Medya Reklamları</Link>
+              <Link to="/#local-seo">Google Local SEO</Link>
+              <Link to="/#iys">İYS Çözümleri</Link>
+              <Link to="/#dijital-pazarlama">Dijital Pazarlama</Link>
+              <Link to="/#web-analitik">Web Analitiği</Link>
+              <Link to="/#mobil-analitik">Mobil Analitiği</Link>
+              <Link to="/#tum-hizmetler">Tüm Hizmetlerimiz</Link>
             </div>
           )}
         </div>
 
-        <a href="#portfolio">Çalışmalarımız</a>
-        <a href="#contact">İletişim</a>
+        <Link to="/#portfolio">Çalışmalarımız</Link>
+        <Link to="/#contact">İletişim</Link>
       </div>
 
       <button className="offer-btn">

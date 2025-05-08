@@ -13,6 +13,9 @@ import GoogleAds from './pages/GoogleAds';
 import ABTest from './pages/ABTest';
 import DataAnalysis from './pages/DataAnalysis';
 import DomainHosting from './pages/DomainHosting';
+import Reporting from './pages/Reporting';
+import SoftwareConsulting from './pages/SoftwareConsulting';
+import DataModeling from './pages/DataModeling';
 
 function App() {
   return (
@@ -35,6 +38,9 @@ function App() {
           <Route path="/ab-testi" element={<ABTest />} />
           <Route path="/veri-analizi" element={<DataAnalysis />} />
           <Route path="/domain-hosting" element={<DomainHosting />} />
+          <Route path="/raporlama" element={<Reporting />} />
+          <Route path="/yazilim-danismanligi" element={<SoftwareConsulting />} />
+          <Route path="/veri-modelleme" element={<DataModeling />} />
         </Routes>
         <Footer />
       </div>
