@@ -16,6 +16,10 @@ import DomainHosting from './pages/DomainHosting';
 import Reporting from './pages/Reporting';
 import SoftwareConsulting from './pages/SoftwareConsulting';
 import DataModeling from './pages/DataModeling';
+import SearchOptimization from './pages/SearchOptimization';
+import InstagramAds from './pages/InstagramAds';
+import LinkedInAds from './pages/LinkedInAds';
+import SocialMediaAds from './pages/SocialMediaAds';
 
 function App() {
   return (
@@ -41,6 +45,10 @@ function App() {
           <Route path="/raporlama" element={<Reporting />} />
           <Route path="/yazilim-danismanligi" element={<SoftwareConsulting />} />
           <Route path="/veri-modelleme" element={<DataModeling />} />
+          <Route path="/arama-optimizasyonu" element={<SearchOptimization />} />
+          <Route path="/instagram-reklam-optimizasyonu" element={<InstagramAds />} />
+          <Route path="/linkedin-reklam-optimizasyonu" element={<LinkedInAds />} />
+          <Route path="/sosyal-medya-reklamlari" element={<SocialMediaAds />} />
         </Routes>
         <Footer />
       </div>

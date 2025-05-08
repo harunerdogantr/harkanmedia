@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function FacebookAds() {
+function SearchOptimization() {
   const [currentStep, setCurrentStep] = useState(1);
 
   const handleNextStep = () => {
@@ -15,11 +15,11 @@ function FacebookAds() {
     <section className="about-section">
       <div className="about-container">
         <div className="about-header">
-          <h1>Facebook Reklamları</h1>
+          <h1>Arama Optimizasyonu</h1>
           <div className="breadcrumb">
             <span>Harkan Yazılım, Medya ve Danışmanlık</span>
             <span className="separator">/</span>
-            <span className="active">Facebook Reklamları</span>
+            <span className="active">Arama Optimizasyonu</span>
           </div>
         </div>
 
@@ -31,29 +31,29 @@ function FacebookAds() {
             color: '#333333',
             margin: '0 0 16px 0'
           }}>
-            Facebook Reklamları
+            Arama Optimizasyonu
           </h1>
           <p style={{ fontSize: '18px', color: '#666666', margin: '0 0 64px 0' }}>
-            Facebook'ta markanızı büyütüyoruz.
+            Arama motorlarında üst sıralarda yer almanızı sağlıyoruz.
           </p>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '48px' }}>
             <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
               <div style={{ flex: 1 }}>
                 <h2 style={{ fontSize: '24px', color: '#333333', marginBottom: '16px' }}>
-                  Kapsamlı Facebook Ads Yönetimi
+                  Kapsamlı SEO Stratejisi
                 </h2>
                 <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
-                  Facebook ve Instagram reklamlarınızı profesyonel olarak yönetiyoruz. 
-                  Hedef kitle segmentasyonu, reklam formatları ve kampanya optimizasyonu 
-                  ile sosyal medya varlığınızı güçlendiriyoruz. Verimli reklam stratejileri 
-                  ile markanızı büyütmenize yardımcı oluyoruz.
+                  Web siteniz için kapsamlı SEO stratejileri geliştiriyoruz. 
+                  Anahtar kelime araştırması, içerik optimizasyonu ve teknik SEO 
+                  çalışmaları ile arama motorlarında üst sıralarda yer almanızı 
+                  sağlıyoruz. Organik trafiğinizi artırarak markanızı güçlendiriyoruz.
                 </p>
               </div>
               <div style={{ flex: 1 }}>
                 <img 
-                  src="https://img.freepik.com/free-vector/facebook-ads-concept-illustration_114360-1234.jpg" 
-                  alt="Facebook Ads" 
+                  src="https://img.freepik.com/free-vector/seo-concept-illustration_114360-1234.jpg" 
+                  alt="SEO Stratejisi" 
                   style={{ width: '100%', borderRadius: '8px' }}
                 />
               </div>
@@ -62,20 +62,20 @@ function FacebookAds() {
             <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
               <div style={{ flex: 1 }}>
                 <img 
-                  src="https://img.freepik.com/free-vector/social-media-marketing-concept-illustration_114360-1235.jpg" 
-                  alt="Reklam Optimizasyonu" 
+                  src="https://img.freepik.com/free-vector/content-marketing-concept-illustration_114360-1235.jpg" 
+                  alt="İçerik Optimizasyonu" 
                   style={{ width: '100%', borderRadius: '8px' }}
                 />
               </div>
               <div style={{ flex: 1 }}>
                 <h2 style={{ fontSize: '24px', color: '#333333', marginBottom: '16px' }}>
-                  Reklam Optimizasyonu
+                  İçerik Optimizasyonu
                 </h2>
                 <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
-                  Kampanyalarınızı sürekli optimize ediyor, performansı artırıyoruz. 
-                  Hedef kitle analizi, reklam yerleşimleri ve teklif stratejileri ile 
-                  dönüşüm oranlarınızı yükseltiyoruz. A/B testleri ve veri analizi ile 
-                  reklam harcamalarınızı maksimum verimle kullanmanızı sağlıyoruz.
+                  Hedef kitlenize uygun, SEO dostu içerikler oluşturuyoruz. 
+                  Anahtar kelime araştırması, içerik planlaması ve optimizasyonu 
+                  ile arama motorlarında görünürlüğünüzü artırıyoruz. Kaliteli ve 
+                  özgün içeriklerle markanızı öne çıkarıyoruz.
                 </p>
               </div>
             </div>
@@ -83,19 +83,20 @@ function FacebookAds() {
             <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
               <div style={{ flex: 1 }}>
                 <h2 style={{ fontSize: '24px', color: '#333333', marginBottom: '16px' }}>
-                  Özelleştirilmiş Reklam Stratejileri
+                  Teknik SEO ve Analiz
                 </h2>
                 <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
-                  İşletmenizin ihtiyaçlarına özel reklam stratejileri geliştiriyoruz. 
-                  Hedef kitle araştırması, rekabet analizi ve pazar trendleri ile 
-                  etkili kampanyalar oluşturuyoruz. Ölçülebilir sonuçlar ve detaylı 
-                  raporlama ile reklam performansınızı takip ediyoruz.
+                  Web sitenizin teknik SEO performansını analiz ediyor, 
+                  iyileştirmeler yapıyoruz. Sayfa hızı optimizasyonu, mobil 
+                  uyumluluk ve site yapısı düzenlemeleri ile arama motoru 
+                  sıralamalarınızı yükseltiyoruz. Düzenli raporlama ile 
+                  performansınızı takip ediyoruz.
                 </p>
               </div>
               <div style={{ flex: 1 }}>
                 <img 
-                  src="https://img.freepik.com/free-vector/social-media-marketing-concept-illustration_114360-1236.jpg" 
-                  alt="Reklam Stratejileri" 
+                  src="https://img.freepik.com/free-vector/technical-support-concept-illustration_114360-1236.jpg" 
+                  alt="Teknik SEO" 
                   style={{ width: '100%', borderRadius: '8px' }}
                 />
               </div>
@@ -112,8 +113,8 @@ function FacebookAds() {
                 </h2>
                 <p className="contact-subtitle">
                   {currentStep === 1 
-                    ? "Bugün danışmanlarımızdan biriyle konuşun ve Facebook Ads hizmetlerimiz hakkında bilgi alın."
-                    : "Facebook Ads ihtiyaçlarınız hakkında biraz bilgi verin. Bu, size en uygun çözümü belirlememize yardımcı olacaktır."
+                    ? "Bugün danışmanlarımızdan biriyle konuşun ve SEO hizmetlerimiz hakkında bilgi alın."
+                    : "SEO ihtiyaçlarınız hakkında biraz bilgi verin. Bu, size en uygun çözümü belirlememize yardımcı olacaktır."
                   }
                 </p>
 
@@ -194,4 +195,4 @@ function FacebookAds() {
   );
 }
 
-export default FacebookAds; 
+export default SearchOptimization; 

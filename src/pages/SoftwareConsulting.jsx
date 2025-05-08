@@ -34,25 +34,25 @@ function SoftwareConsulting() {
             Yazılım Danışmanlığı
           </h1>
           <p style={{ fontSize: '18px', color: '#666666', margin: '0 0 64px 0' }}>
-            Dijital dönüşümünüzü birlikte gerçekleştirelim.
+            Dijital dönüşümünüzü birlikte gerçekleştiriyoruz.
           </p>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '48px' }}>
             <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
               <div style={{ flex: 1 }}>
                 <h2 style={{ fontSize: '24px', color: '#333333', marginBottom: '16px' }}>
-                  Stratejik Yazılım Danışmanlığı
+                  Kapsamlı Yazılım Danışmanlığı
                 </h2>
                 <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
-                  İşletmenizin dijital dönüşüm sürecinde stratejik danışmanlık hizmetleri sunuyoruz. 
-                  Mevcut sistemlerinizi analiz ediyor, ihtiyaçlarınıza uygun çözümler öneriyor ve 
-                  teknoloji yol haritanızı birlikte oluşturuyoruz. Modern yazılım mimarileri ve 
-                  en iyi uygulamalar ile işinizi geleceğe taşıyoruz.
+                  İşletmenizin ihtiyaçlarına özel yazılım çözümleri sunuyoruz. 
+                  Mevcut sistemlerinizi analiz ediyor, modern teknolojiler ile 
+                  entegre ediyor ve verimliliğinizi artırıyoruz. Dijital dönüşüm 
+                  sürecinizde size rehberlik ediyoruz.
                 </p>
               </div>
               <div style={{ flex: 1 }}>
                 <img 
-                  src="https://img.freepik.com/free-vector/software-development-concept-illustration_114360-2414.jpg" 
+                  src="https://img.freepik.com/free-vector/software-development-concept-illustration_114360-1234.jpg" 
                   alt="Yazılım Danışmanlığı" 
                   style={{ width: '100%', borderRadius: '8px' }}
                 />
@@ -62,20 +62,20 @@ function SoftwareConsulting() {
             <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
               <div style={{ flex: 1 }}>
                 <img 
-                  src="https://img.freepik.com/free-vector/team-leader-teamwork-concept-illustration_114360-1203.jpg" 
-                  alt="Teknik Danışmanlık" 
+                  src="https://img.freepik.com/free-vector/software-development-concept-illustration_114360-1235.jpg" 
+                  alt="Teknoloji Danışmanlığı" 
                   style={{ width: '100%', borderRadius: '8px' }}
                 />
               </div>
               <div style={{ flex: 1 }}>
                 <h2 style={{ fontSize: '24px', color: '#333333', marginBottom: '16px' }}>
-                  Teknik Danışmanlık ve Eğitim
+                  Teknoloji Danışmanlığı
                 </h2>
                 <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
-                  Teknik ekibinize özel danışmanlık ve eğitim hizmetleri sunuyoruz. 
-                  Modern yazılım geliştirme metodolojileri, araçları ve teknolojileri 
-                  konusunda uzman desteği sağlıyor, ekip performansınızı artırıyoruz. 
-                  Sürekli gelişim ve öğrenme kültürünü destekliyoruz.
+                  En son teknolojileri işletmenize entegre ediyoruz. 
+                  Bulut çözümleri, yapay zeka ve otomasyon sistemleri ile 
+                  iş süreçlerinizi optimize ediyoruz. Teknoloji altyapınızı 
+                  güçlendirerek rekabet avantajı elde etmenizi sağlıyoruz.
                 </p>
               </div>
             </div>
@@ -83,18 +83,19 @@ function SoftwareConsulting() {
             <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
               <div style={{ flex: 1 }}>
                 <h2 style={{ fontSize: '24px', color: '#333333', marginBottom: '16px' }}>
-                  Proje Yönetimi ve Süreç İyileştirme
+                  Özelleştirilmiş Çözümler
                 </h2>
                 <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
-                  Yazılım projelerinizin başarıyla tamamlanması için kapsamlı proje yönetimi hizmetleri sunuyoruz. 
-                  Agile metodolojileri ile süreçlerinizi iyileştiriyor, verimliliği artırıyoruz. 
-                  Risk yönetimi, kaynak planlaması ve kalite kontrol süreçlerinizi optimize ediyoruz.
+                  İşletmenizin ihtiyaçlarına özel yazılım çözümleri geliştiriyoruz. 
+                  Sektörünüze özgü iş süreçlerinizi analiz ediyor, verimliliğinizi 
+                  artıracak sistemler tasarlıyoruz. Modern teknolojiler ve en iyi 
+                  uygulamalarla dijital dönüşümünüzü gerçekleştiriyoruz.
                 </p>
               </div>
               <div style={{ flex: 1 }}>
                 <img 
-                  src="https://img.freepik.com/free-vector/project-management-concept-illustration_114360-1063.jpg" 
-                  alt="Proje Yönetimi" 
+                  src="https://img.freepik.com/free-vector/software-development-concept-illustration_114360-1236.jpg" 
+                  alt="Özelleştirilmiş Çözümler" 
                   style={{ width: '100%', borderRadius: '8px' }}
                 />
               </div>
@@ -111,8 +112,8 @@ function SoftwareConsulting() {
                 </h2>
                 <p className="contact-subtitle">
                   {currentStep === 1 
-                    ? "Bugün danışmanlarımızdan biriyle konuşun ve yazılım danışmanlık hizmetlerimiz hakkında bilgi alın."
-                    : "Yazılım ihtiyaçlarınız hakkında biraz bilgi verin. Bu, size en uygun çözümü belirlememize yardımcı olacaktır."
+                    ? "Bugün danışmanlarımızdan biriyle konuşun ve yazılım danışmanlığı hizmetlerimiz hakkında bilgi alın."
+                    : "Yazılım danışmanlığı ihtiyaçlarınız hakkında biraz bilgi verin. Bu, size en uygun çözümü belirlememize yardımcı olacaktır."
                   }
                 </p>
 
@@ -180,7 +181,7 @@ function SoftwareConsulting() {
               </div>
               <div className="contact-image">
                 <img 
-                  src="https://img.freepik.com/free-vector/business-team-putting-together-jigsaw-puzzle-isolated-flat-vector-illustration-cartoon-partners-working-connection-teamwork-partnership-cooperation-concept_74855-9814.jpg" 
+                  src="https://img.freepik.com/free-vector/business-team-discussing-ideas-startup_74855-4380.jpg" 
                   alt="Contact Hero"
                   style={{ maxWidth: '400px' }}
                 />

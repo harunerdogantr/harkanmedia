@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function FacebookAds() {
+function InstagramAds() {
   const [currentStep, setCurrentStep] = useState(1);
 
   const handleNextStep = () => {
@@ -15,11 +15,11 @@ function FacebookAds() {
     <section className="about-section">
       <div className="about-container">
         <div className="about-header">
-          <h1>Facebook Reklamları</h1>
+          <h1>Instagram Reklamları</h1>
           <div className="breadcrumb">
             <span>Harkan Yazılım, Medya ve Danışmanlık</span>
             <span className="separator">/</span>
-            <span className="active">Facebook Reklamları</span>
+            <span className="active">Instagram Reklamları</span>
           </div>
         </div>
 
@@ -31,29 +31,30 @@ function FacebookAds() {
             color: '#333333',
             margin: '0 0 16px 0'
           }}>
-            Facebook Reklamları
+            Instagram Reklamları
           </h1>
           <p style={{ fontSize: '18px', color: '#666666', margin: '0 0 64px 0' }}>
-            Facebook'ta markanızı büyütüyoruz.
+            Instagram'da markanızı öne çıkarıyoruz.
           </p>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '48px' }}>
             <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
               <div style={{ flex: 1 }}>
                 <h2 style={{ fontSize: '24px', color: '#333333', marginBottom: '16px' }}>
-                  Kapsamlı Facebook Ads Yönetimi
+                  Kapsamlı Instagram Ads Yönetimi
                 </h2>
                 <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
-                  Facebook ve Instagram reklamlarınızı profesyonel olarak yönetiyoruz. 
-                  Hedef kitle segmentasyonu, reklam formatları ve kampanya optimizasyonu 
-                  ile sosyal medya varlığınızı güçlendiriyoruz. Verimli reklam stratejileri 
-                  ile markanızı büyütmenize yardımcı oluyoruz.
+                  Instagram reklamlarınızı profesyonel olarak yönetiyoruz. 
+                  Görsel odaklı reklam stratejileri, hedef kitle segmentasyonu ve 
+                  kampanya optimizasyonu ile sosyal medya varlığınızı güçlendiriyoruz. 
+                  Etkileyici içerikler ve verimli reklam stratejileri ile markanızı 
+                  büyütmenize yardımcı oluyoruz.
                 </p>
               </div>
               <div style={{ flex: 1 }}>
                 <img 
-                  src="https://img.freepik.com/free-vector/facebook-ads-concept-illustration_114360-1234.jpg" 
-                  alt="Facebook Ads" 
+                  src="https://img.freepik.com/free-vector/instagram-ads-concept-illustration_114360-1237.jpg" 
+                  alt="Instagram Ads" 
                   style={{ width: '100%', borderRadius: '8px' }}
                 />
               </div>
@@ -62,19 +63,19 @@ function FacebookAds() {
             <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
               <div style={{ flex: 1 }}>
                 <img 
-                  src="https://img.freepik.com/free-vector/social-media-marketing-concept-illustration_114360-1235.jpg" 
+                  src="https://img.freepik.com/free-vector/instagram-marketing-concept-illustration_114360-1238.jpg" 
                   alt="Reklam Optimizasyonu" 
                   style={{ width: '100%', borderRadius: '8px' }}
                 />
               </div>
               <div style={{ flex: 1 }}>
                 <h2 style={{ fontSize: '24px', color: '#333333', marginBottom: '16px' }}>
-                  Reklam Optimizasyonu
+                  Görsel Reklam Optimizasyonu
                 </h2>
                 <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
-                  Kampanyalarınızı sürekli optimize ediyor, performansı artırıyoruz. 
-                  Hedef kitle analizi, reklam yerleşimleri ve teklif stratejileri ile 
-                  dönüşüm oranlarınızı yükseltiyoruz. A/B testleri ve veri analizi ile 
+                  Kampanyalarınızı sürekli optimize ediyor, görsel performansı artırıyoruz. 
+                  Hedef kitle analizi, reklam formatları ve teklif stratejileri ile 
+                  etkileşim oranlarınızı yükseltiyoruz. A/B testleri ve veri analizi ile 
                   reklam harcamalarınızı maksimum verimle kullanmanızı sağlıyoruz.
                 </p>
               </div>
@@ -83,19 +84,19 @@ function FacebookAds() {
             <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
               <div style={{ flex: 1 }}>
                 <h2 style={{ fontSize: '24px', color: '#333333', marginBottom: '16px' }}>
-                  Özelleştirilmiş Reklam Stratejileri
+                  Özelleştirilmiş İçerik Stratejileri
                 </h2>
                 <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
-                  İşletmenizin ihtiyaçlarına özel reklam stratejileri geliştiriyoruz. 
-                  Hedef kitle araştırması, rekabet analizi ve pazar trendleri ile 
+                  Markanızın kimliğine uygun içerik stratejileri geliştiriyoruz. 
+                  Hedef kitle araştırması, trend analizi ve görsel içerik planlaması ile 
                   etkili kampanyalar oluşturuyoruz. Ölçülebilir sonuçlar ve detaylı 
                   raporlama ile reklam performansınızı takip ediyoruz.
                 </p>
               </div>
               <div style={{ flex: 1 }}>
                 <img 
-                  src="https://img.freepik.com/free-vector/social-media-marketing-concept-illustration_114360-1236.jpg" 
-                  alt="Reklam Stratejileri" 
+                  src="https://img.freepik.com/free-vector/instagram-content-concept-illustration_114360-1239.jpg" 
+                  alt="İçerik Stratejileri" 
                   style={{ width: '100%', borderRadius: '8px' }}
                 />
               </div>
@@ -112,8 +113,8 @@ function FacebookAds() {
                 </h2>
                 <p className="contact-subtitle">
                   {currentStep === 1 
-                    ? "Bugün danışmanlarımızdan biriyle konuşun ve Facebook Ads hizmetlerimiz hakkında bilgi alın."
-                    : "Facebook Ads ihtiyaçlarınız hakkında biraz bilgi verin. Bu, size en uygun çözümü belirlememize yardımcı olacaktır."
+                    ? "Bugün danışmanlarımızdan biriyle konuşun ve Instagram Ads hizmetlerimiz hakkında bilgi alın."
+                    : "Instagram Ads ihtiyaçlarınız hakkında biraz bilgi verin. Bu, size en uygun çözümü belirlememize yardımcı olacaktır."
                   }
                 </p>
 
@@ -181,7 +182,7 @@ function FacebookAds() {
               </div>
               <div className="contact-image">
                 <img 
-                  src="https://img.freepik.com/free-vector/business-team-discussing-ideas-startup_74855-4380.jpg" 
+                  src="https://img.freepik.com/free-vector/social-media-marketing-concept-illustration_114360-1240.jpg" 
                   alt="Contact Hero"
                   style={{ maxWidth: '400px' }}
                 />
@@ -194,4 +195,4 @@ function FacebookAds() {
   );
 }
 
-export default FacebookAds; 
+export default InstagramAds; 

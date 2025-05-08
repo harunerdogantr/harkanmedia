@@ -1,5 +1,6 @@
 import React from 'react';
 import ServiceIcon from './ServiceIcon';
+import { Link } from 'react-router-dom';
 
 function Services() {
   const services = [
@@ -51,7 +52,7 @@ function Services() {
             <ServiceIcon name={service.iconName} />
             <h3 className="service-title">{service.title}</h3>
             <p className="service-description">{service.description}</p>
-            <div className="service-arrow">→</div>
+            <Link to={service.title === "SEO" ? "/arama-optimizasyonu" : service.title === "Facebook Reklamları" ? "/facebook-reklam-optimizasyonu" : "#"} className="service-arrow">→</Link>
           </div>
         ))}
       </div>

@@ -15,11 +15,11 @@ function GoogleAds() {
     <section className="about-section">
       <div className="about-container">
         <div className="about-header">
-          <h1>Google Ads Optimizasyonu</h1>
+          <h1>Google Reklamları</h1>
           <div className="breadcrumb">
             <span>Harkan Yazılım, Medya ve Danışmanlık</span>
             <span className="separator">/</span>
-            <span className="active">Google Ads Optimizasyonu</span>
+            <span className="active">Google Reklamları</span>
           </div>
         </div>
 
@@ -31,29 +31,29 @@ function GoogleAds() {
             color: '#333333',
             margin: '0 0 16px 0'
           }}>
-            Google Ads Optimizasyonu
+            Google Reklamları
           </h1>
           <p style={{ fontSize: '18px', color: '#666666', margin: '0 0 64px 0' }}>
-            Google reklamlarınızı en verimli şekilde yönetiyoruz.
+            Google'da görünürlüğünüzü artırıyoruz.
           </p>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '48px' }}>
             <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
               <div style={{ flex: 1 }}>
                 <h2 style={{ fontSize: '24px', color: '#333333', marginBottom: '16px' }}>
-                  Profesyonel Google Ads Yönetimi
+                  Kapsamlı Google Ads Yönetimi
                 </h2>
                 <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
-                  Google Ads kampanyalarınızı profesyonel ekibimiz tarafından yönetiyoruz. Arama ağları, 
-                  görüntülü ağ ve YouTube reklamlarınızı optimize ederek, bütçenizi en verimli şekilde 
-                  kullanmanızı sağlıyoruz. Kampanyalarınızı sürekli analiz ederek performansını artırıyor 
-                  ve size maksimum dönüş sağlıyoruz.
+                  Google Ads kampanyalarınızı profesyonel olarak yönetiyoruz. 
+                  Arama, görüntülü, video ve alışveriş reklamları ile hedef 
+                  kitlenize ulaşmanızı sağlıyoruz. Optimize edilmiş kampanyalar 
+                  ile reklam bütçenizi verimli kullanmanıza yardımcı oluyoruz.
                 </p>
               </div>
               <div style={{ flex: 1 }}>
                 <img 
-                  src="https://img.freepik.com/free-vector/digital-marketing-concept-illustration_114360-817.jpg" 
-                  alt="Google Ads Optimizasyonu" 
+                  src="https://img.freepik.com/free-vector/google-ads-concept-illustration_114360-1234.jpg" 
+                  alt="Google Ads" 
                   style={{ width: '100%', borderRadius: '8px' }}
                 />
               </div>
@@ -62,21 +62,42 @@ function GoogleAds() {
             <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
               <div style={{ flex: 1 }}>
                 <img 
-                  src="https://img.freepik.com/free-vector/business-analytics-concept-illustration_114360-1435.jpg" 
-                  alt="Google Ads Analizi" 
+                  src="https://img.freepik.com/free-vector/digital-marketing-concept-illustration_114360-1235.jpg" 
+                  alt="Reklam Optimizasyonu" 
                   style={{ width: '100%', borderRadius: '8px' }}
                 />
               </div>
               <div style={{ flex: 1 }}>
                 <h2 style={{ fontSize: '24px', color: '#333333', marginBottom: '16px' }}>
-                  Detaylı Analiz ve Raporlama
+                  Reklam Optimizasyonu
                 </h2>
                 <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
-                  Google Ads kampanyalarınızın performansını detaylı olarak analiz ediyor, 
-                  düzenli raporlar sunuyoruz. Anahtar kelime performansı, tıklama maliyeti, 
-                  dönüşüm oranları ve ROI gibi metrikleri takip ederek, kampanyalarınızı 
-                  sürekli iyileştiriyoruz.
+                  Kampanyalarınızı sürekli optimize ediyor, performansı artırıyoruz. 
+                  Anahtar kelime analizi, teklif stratejileri ve reklam metinleri 
+                  optimizasyonu ile dönüşüm oranlarınızı yükseltiyoruz. Veri odaklı 
+                  yaklaşımla reklam harcamalarınızı maksimum verimle kullanmanızı sağlıyoruz.
                 </p>
+              </div>
+            </div>
+
+            <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
+              <div style={{ flex: 1 }}>
+                <h2 style={{ fontSize: '24px', color: '#333333', marginBottom: '16px' }}>
+                  Özelleştirilmiş Reklam Stratejileri
+                </h2>
+                <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
+                  İşletmenizin ihtiyaçlarına özel reklam stratejileri geliştiriyoruz. 
+                  Hedef kitle analizi, rekabet araştırması ve pazar trendleri ile 
+                  etkili kampanyalar oluşturuyoruz. Ölçülebilir sonuçlar ve detaylı 
+                  raporlama ile reklam performansınızı takip ediyoruz.
+                </p>
+              </div>
+              <div style={{ flex: 1 }}>
+                <img 
+                  src="https://img.freepik.com/free-vector/digital-marketing-concept-illustration_114360-1236.jpg" 
+                  alt="Reklam Stratejileri" 
+                  style={{ width: '100%', borderRadius: '8px' }}
+                />
               </div>
             </div>
           </div>
@@ -91,8 +112,8 @@ function GoogleAds() {
                 </h2>
                 <p className="contact-subtitle">
                   {currentStep === 1 
-                    ? "Bugün danışmanlarımızdan biriyle konuşun ve Google Ads kampanyalarınızı nasıl optimize edeceğimizi öğrenin."
-                    : "Google Ads kampanyalarınız hakkında biraz bilgi verin. Bu, size en uygun stratejiyi belirlememize yardımcı olacaktır."
+                    ? "Bugün danışmanlarımızdan biriyle konuşun ve Google Ads hizmetlerimiz hakkında bilgi alın."
+                    : "Google Ads ihtiyaçlarınız hakkında biraz bilgi verin. Bu, size en uygun çözümü belirlememize yardımcı olacaktır."
                   }
                 </p>
 
@@ -160,7 +181,7 @@ function GoogleAds() {
               </div>
               <div className="contact-image">
                 <img 
-                  src="https://img.freepik.com/free-vector/business-team-putting-together-jigsaw-puzzle-isolated-flat-vector-illustration-cartoon-partners-working-connection-teamwork-partnership-cooperation-concept_74855-9814.jpg" 
+                  src="https://img.freepik.com/free-vector/business-team-discussing-ideas-startup_74855-4380.jpg" 
                   alt="Contact Hero"
                   style={{ maxWidth: '400px' }}
                 />

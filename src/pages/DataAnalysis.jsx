@@ -41,13 +41,13 @@ function DataAnalysis() {
             <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
               <div style={{ flex: 1 }}>
                 <h2 style={{ fontSize: '24px', color: '#333333', marginBottom: '16px' }}>
-                  Kapsamlı Veri Analizi Hizmetleri
+                  İleri Düzey Veri Analizi
                 </h2>
                 <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
-                  İşletmenizin tüm veri kaynaklarını analiz ediyor, değerli içgörüler elde ediyoruz. 
-                  Web analitiği, sosyal medya metrikleri, müşteri davranışları ve satış verilerinizi 
-                  bir araya getirerek, işinizi büyütmenize yardımcı olacak stratejik öneriler sunuyoruz. 
-                  Veri odaklı kararlar almanızı sağlayarak, rekabet avantajı elde etmenize destek oluyoruz.
+                  Karmaşık veri setlerinizi anlamlı içgörülere dönüştürüyoruz. 
+                  Makine öğrenmesi ve yapay zeka algoritmaları ile verilerinizi analiz ediyor, 
+                  trendleri ortaya çıkarıyor ve iş süreçlerinizi optimize ediyoruz. 
+                  Veri odaklı karar verme süreçlerinizi güçlendiriyoruz.
                 </p>
               </div>
               <div style={{ flex: 1 }}>
@@ -62,22 +62,42 @@ function DataAnalysis() {
             <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
               <div style={{ flex: 1 }}>
                 <img 
-                  src="https://img.freepik.com/free-vector/business-analytics-concept-illustration_114360-1435.jpg" 
-                  alt="Veri Analizi Raporlama" 
+                  src="https://img.freepik.com/free-vector/business-analytics-concept-illustration_114360-1436.jpg" 
+                  alt="Tahminsel Analiz" 
                   style={{ width: '100%', borderRadius: '8px' }}
                 />
               </div>
               <div style={{ flex: 1 }}>
                 <h2 style={{ fontSize: '24px', color: '#333333', marginBottom: '16px' }}>
-                  Detaylı Raporlama ve Öneriler
+                  Tahminsel Analiz ve Öngörüler
                 </h2>
                 <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
-                  Veri analizlerinizi anlaşılır ve aksiyon alınabilir raporlara dönüştürüyoruz. 
-                  Performans metriklerini, trend analizlerini ve karşılaştırmalı değerlendirmeleri 
-                  içeren kapsamlı raporlar sunuyoruz. Bu raporlar sayesinde işinizin güçlü ve 
-                  zayıf yönlerini görebilir, fırsatları değerlendirebilir ve tehditlere karşı 
-                  önlem alabilirsiniz.
+                  Geçmiş verilerinizi kullanarak geleceğe yönelik tahminler yapıyoruz. 
+                  Trend analizi, müşteri davranış tahminleri ve pazar analizleri ile 
+                  işletmenizin geleceğini şekillendiriyoruz. Veri odaklı stratejik 
+                  kararlar almanıza yardımcı oluyoruz.
                 </p>
+              </div>
+            </div>
+
+            <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
+              <div style={{ flex: 1 }}>
+                <h2 style={{ fontSize: '24px', color: '#333333', marginBottom: '16px' }}>
+                  Özelleştirilmiş Analiz Çözümleri
+                </h2>
+                <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
+                  İşletmenizin ihtiyaçlarına özel veri analizi çözümleri sunuyoruz. 
+                  Sektörünüze özgü metrikleri analiz ediyor, veri kalitesini artırıyor ve 
+                  süreçlerinizi optimize ediyoruz. Modern teknolojiler ve en iyi 
+                  uygulamalarla veri analizi süreçlerinizi güçlendiriyoruz.
+                </p>
+              </div>
+              <div style={{ flex: 1 }}>
+                <img 
+                  src="https://img.freepik.com/free-vector/data-processing-concept-illustration_114360-1083.jpg" 
+                  alt="Analiz Çözümleri" 
+                  style={{ width: '100%', borderRadius: '8px' }}
+                />
               </div>
             </div>
           </div>
@@ -93,7 +113,7 @@ function DataAnalysis() {
                 <p className="contact-subtitle">
                   {currentStep === 1 
                     ? "Bugün danışmanlarımızdan biriyle konuşun ve veri analizi hizmetlerimiz hakkında bilgi alın."
-                    : "Veri analizi ihtiyaçlarınız hakkında biraz bilgi verin. Bu, size en uygun analiz stratejisini belirlememize yardımcı olacaktır."
+                    : "Veri analizi ihtiyaçlarınız hakkında biraz bilgi verin. Bu, size en uygun çözümü belirlememize yardımcı olacaktır."
                   }
                 </p>
 
@@ -161,7 +181,7 @@ function DataAnalysis() {
               </div>
               <div className="contact-image">
                 <img 
-                  src="https://img.freepik.com/free-vector/business-team-putting-together-jigsaw-puzzle-isolated-flat-vector-illustration-cartoon-partners-working-connection-teamwork-partnership-cooperation-concept_74855-9814.jpg" 
+                  src="https://img.freepik.com/free-vector/business-team-discussing-ideas-startup_74855-4380.jpg" 
                   alt="Contact Hero"
                   style={{ maxWidth: '400px' }}
                 />

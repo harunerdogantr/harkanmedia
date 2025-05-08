@@ -34,25 +34,25 @@ function ABTest() {
             A/B Testi
           </h1>
           <p style={{ fontSize: '18px', color: '#666666', margin: '0 0 64px 0' }}>
-            Veriye dayalı kararlar almanızı sağlıyoruz.
+            Veri odaklı kararlarla dijital varlığınızı optimize ediyoruz.
           </p>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '48px' }}>
             <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
               <div style={{ flex: 1 }}>
                 <h2 style={{ fontSize: '24px', color: '#333333', marginBottom: '16px' }}>
-                  Profesyonel A/B Testi Yönetimi
+                  Kapsamlı A/B Test Çözümleri
                 </h2>
                 <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
-                  Web siteniz, uygulamanız veya pazarlama kampanyalarınız için kapsamlı A/B testleri 
-                  gerçekleştiriyoruz. Farklı tasarım, içerik ve kullanıcı deneyimi varyasyonlarını 
-                  test ederek, en yüksek dönüşüm oranına sahip versiyonu belirliyoruz. Bu sayede 
-                  kararlarınızı veriye dayalı olarak almanızı sağlıyoruz.
+                  Web sitenizin performansını artırmak için kapsamlı A/B test çözümleri sunuyoruz. 
+                  Farklı tasarım, içerik ve kullanıcı deneyimi varyasyonlarını test ederek, 
+                  en etkili kombinasyonu belirliyoruz. Veri odaklı optimizasyon ile dönüşüm 
+                  oranlarınızı artırıyoruz.
                 </p>
               </div>
               <div style={{ flex: 1 }}>
                 <img 
-                  src="https://img.freepik.com/free-vector/data-analysis-concept-illustration_114360-1263.jpg" 
+                  src="https://img.freepik.com/free-vector/ab-testing-concept-illustration_114360-1234.jpg" 
                   alt="A/B Testi" 
                   style={{ width: '100%', borderRadius: '8px' }}
                 />
@@ -62,8 +62,8 @@ function ABTest() {
             <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
               <div style={{ flex: 1 }}>
                 <img 
-                  src="https://img.freepik.com/free-vector/business-analytics-concept-illustration_114360-1435.jpg" 
-                  alt="A/B Testi Analizi" 
+                  src="https://img.freepik.com/free-vector/data-analysis-concept-illustration_114360-1263.jpg" 
+                  alt="Veri Analizi" 
                   style={{ width: '100%', borderRadius: '8px' }}
                 />
               </div>
@@ -72,12 +72,32 @@ function ABTest() {
                   Detaylı Analiz ve Raporlama
                 </h2>
                 <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
-                  A/B testlerinizin sonuçlarını detaylı olarak analiz ediyor, kapsamlı raporlar 
-                  sunuyoruz. Kullanıcı davranışları, dönüşüm oranları, tıklama oranları ve diğer 
-                  önemli metrikleri takip ederek, test sonuçlarını anlaşılır bir şekilde 
-                  raporluyoruz. Bu sayede hangi varyasyonun daha iyi performans gösterdiğini 
-                  net bir şekilde görebilirsiniz.
+                  Test sonuçlarınızı detaylı olarak analiz ediyor, anlaşılır raporlar sunuyoruz. 
+                  Kullanıcı davranışlarını, dönüşüm oranlarını ve diğer önemli metrikleri 
+                  takip ederek, test sonuçlarınızı yorumluyoruz. Veri odaklı önerilerle 
+                  sürekli iyileştirme sağlıyoruz.
                 </p>
+              </div>
+            </div>
+
+            <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
+              <div style={{ flex: 1 }}>
+                <h2 style={{ fontSize: '24px', color: '#333333', marginBottom: '16px' }}>
+                  Özelleştirilmiş Test Stratejileri
+                </h2>
+                <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
+                  İşletmenizin ihtiyaçlarına özel test stratejileri geliştiriyoruz. 
+                  Hedef kitlenize ve sektörünüze uygun test senaryoları oluşturuyor, 
+                  en etkili sonuçları elde etmenizi sağlıyoruz. Sürekli optimizasyon 
+                  ile dijital varlığınızı güçlendiriyoruz.
+                </p>
+              </div>
+              <div style={{ flex: 1 }}>
+                <img 
+                  src="https://img.freepik.com/free-vector/business-strategy-concept-illustration_114360-1506.jpg" 
+                  alt="Test Stratejileri" 
+                  style={{ width: '100%', borderRadius: '8px' }}
+                />
               </div>
             </div>
           </div>
@@ -92,8 +112,8 @@ function ABTest() {
                 </h2>
                 <p className="contact-subtitle">
                   {currentStep === 1 
-                    ? "Bugün danışmanlarımızdan biriyle konuşun ve A/B testlerinizi nasıl optimize edeceğimizi öğrenin."
-                    : "A/B test ihtiyaçlarınız hakkında biraz bilgi verin. Bu, size en uygun test stratejisini belirlememize yardımcı olacaktır."
+                    ? "Bugün danışmanlarımızdan biriyle konuşun ve A/B testi hizmetlerimiz hakkında bilgi alın."
+                    : "A/B testi ihtiyaçlarınız hakkında biraz bilgi verin. Bu, size en uygun çözümü belirlememize yardımcı olacaktır."
                   }
                 </p>
 
@@ -161,7 +181,7 @@ function ABTest() {
               </div>
               <div className="contact-image">
                 <img 
-                  src="https://img.freepik.com/free-vector/business-team-putting-together-jigsaw-puzzle-isolated-flat-vector-illustration-cartoon-partners-working-connection-teamwork-partnership-cooperation-concept_74855-9814.jpg" 
+                  src="https://img.freepik.com/free-vector/business-team-discussing-ideas-startup_74855-4380.jpg" 
                   alt="Contact Hero"
                   style={{ maxWidth: '400px' }}
                 />

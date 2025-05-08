@@ -15,11 +15,11 @@ function DomainHosting() {
     <section className="about-section">
       <div className="about-container">
         <div className="about-header">
-          <h1>Domain & Hosting Yönetimi</h1>
+          <h1>Domain ve Hosting</h1>
           <div className="breadcrumb">
             <span>Harkan Yazılım, Medya ve Danışmanlık</span>
             <span className="separator">/</span>
-            <span className="active">Domain & Hosting Yönetimi</span>
+            <span className="active">Domain ve Hosting</span>
           </div>
         </div>
 
@@ -31,29 +31,29 @@ function DomainHosting() {
             color: '#333333',
             margin: '0 0 16px 0'
           }}>
-            Domain & Hosting Yönetimi
+            Domain ve Hosting
           </h1>
           <p style={{ fontSize: '18px', color: '#666666', margin: '0 0 64px 0' }}>
-            Dijital varlıklarınızı güvenle yönetiyoruz.
+            Dijital varlığınızı güvenle barındırıyoruz.
           </p>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: '48px' }}>
             <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
               <div style={{ flex: 1 }}>
                 <h2 style={{ fontSize: '24px', color: '#333333', marginBottom: '16px' }}>
-                  Profesyonel Domain Yönetimi
+                  Güvenilir Hosting Çözümleri
                 </h2>
                 <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
-                  Domain adınızın kaydı, yenilenmesi ve yönetimi konusunda uzman desteği sunuyoruz. 
-                  DNS yapılandırması, domain transferi ve güvenlik ayarları gibi tüm süreçleri 
-                  profesyonel olarak yönetiyoruz. Markanızı yansıtan doğru domain adını seçmenize 
-                  yardımcı oluyor, domain portföyünüzü optimize ediyoruz.
+                  Yüksek performanslı ve güvenli hosting hizmetleri sunuyoruz. 
+                  SSD depolama, yüksek bant genişliği ve 7/24 teknik destek ile 
+                  web sitenizin kesintisiz çalışmasını sağlıyoruz. Modern altyapımız 
+                  ile dijital varlığınızı güvenle barındırıyoruz.
                 </p>
               </div>
               <div style={{ flex: 1 }}>
                 <img 
-                  src="https://img.freepik.com/free-vector/domain-concept-illustration_114360-1353.jpg" 
-                  alt="Domain Yönetimi" 
+                  src="https://img.freepik.com/free-vector/server-room-cloud-storage-data-center-illustration_39422-595.jpg" 
+                  alt="Hosting" 
                   style={{ width: '100%', borderRadius: '8px' }}
                 />
               </div>
@@ -62,21 +62,42 @@ function DomainHosting() {
             <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
               <div style={{ flex: 1 }}>
                 <img 
-                  src="https://img.freepik.com/free-vector/server-room-cloud-storage-data-center-illustration_39422-595.jpg" 
-                  alt="Hosting Yönetimi" 
+                  src="https://img.freepik.com/free-vector/domain-registration-concept-illustration_114360-1271.jpg" 
+                  alt="Domain" 
                   style={{ width: '100%', borderRadius: '8px' }}
                 />
               </div>
               <div style={{ flex: 1 }}>
                 <h2 style={{ fontSize: '24px', color: '#333333', marginBottom: '16px' }}>
-                  Güvenilir Hosting Çözümleri
+                  Domain Yönetimi
                 </h2>
                 <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
-                  Yüksek performanslı ve güvenli hosting hizmetleri sunuyoruz. Web sitenizin 
-                  hızlı ve kesintisiz çalışmasını sağlayan altyapı çözümleri, düzenli yedekleme 
-                  ve 7/24 teknik destek hizmetleri ile dijital varlıklarınızı güvende tutuyoruz. 
-                  İhtiyaçlarınıza özel hosting paketleri ile bütçenize uygun çözümler sunuyoruz.
+                  Markanıza uygun domain adını bulmanıza yardımcı oluyoruz. 
+                  Domain kayıt, transfer ve yenileme işlemlerinizi kolayca 
+                  yönetmenizi sağlıyoruz. DNS yönetimi ve SSL sertifikaları ile 
+                  güvenli ve profesyonel bir online varlık oluşturmanıza destek oluyoruz.
                 </p>
+              </div>
+            </div>
+
+            <div style={{ display: 'flex', gap: '64px', alignItems: 'center' }}>
+              <div style={{ flex: 1 }}>
+                <h2 style={{ fontSize: '24px', color: '#333333', marginBottom: '16px' }}>
+                  Özelleştirilmiş Hosting Paketleri
+                </h2>
+                <p style={{ fontSize: '16px', color: '#666666', lineHeight: 1.6 }}>
+                  İhtiyaçlarınıza özel hosting paketleri sunuyoruz. 
+                  Paylaşımlı hosting, VPS, dedicated sunucu ve bulut hosting 
+                  seçenekleri ile bütçenize ve gereksinimlerinize uygun çözümler 
+                  sunuyoruz. Ölçeklenebilir altyapımız ile büyümenize destek oluyoruz.
+                </p>
+              </div>
+              <div style={{ flex: 1 }}>
+                <img 
+                  src="https://img.freepik.com/free-vector/server-room-cloud-storage-data-center-illustration_39422-596.jpg" 
+                  alt="Hosting Paketleri" 
+                  style={{ width: '100%', borderRadius: '8px' }}
+                />
               </div>
             </div>
           </div>
@@ -91,7 +112,7 @@ function DomainHosting() {
                 </h2>
                 <p className="contact-subtitle">
                   {currentStep === 1 
-                    ? "Bugün danışmanlarımızdan biriyle konuşun ve domain & hosting hizmetlerimiz hakkında bilgi alın."
+                    ? "Bugün danışmanlarımızdan biriyle konuşun ve domain/hosting hizmetlerimiz hakkında bilgi alın."
                     : "Domain ve hosting ihtiyaçlarınız hakkında biraz bilgi verin. Bu, size en uygun çözümü belirlememize yardımcı olacaktır."
                   }
                 </p>
@@ -160,7 +181,7 @@ function DomainHosting() {
               </div>
               <div className="contact-image">
                 <img 
-                  src="https://img.freepik.com/free-vector/business-team-putting-together-jigsaw-puzzle-isolated-flat-vector-illustration-cartoon-partners-working-connection-teamwork-partnership-cooperation-concept_74855-9814.jpg" 
+                  src="https://img.freepik.com/free-vector/business-team-discussing-ideas-startup_74855-4380.jpg" 
                   alt="Contact Hero"
                   style={{ maxWidth: '400px' }}
                 />

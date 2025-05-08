@@ -146,7 +146,7 @@ function Navbar() {
           </div>
           {hizmetlerimizOpen && (
             <div className="dropdown-menu">
-              <Link to="/#seo">Arama Motoru Optimizasyonu</Link>
+              <Link to="/arama-optimizasyonu">Arama Motoru Optimizasyonu</Link>
               <div 
                 className="dropdown-submenu"
                 onMouseEnter={() => setGoogleReklamOpen(true)}
@@ -167,13 +167,13 @@ function Navbar() {
                 </Link>
                 {googleReklamOpen && (
                   <div className="dropdown-menu right">
-                    <Link to="/#facebook-reklam">Facebook Reklamları</Link>
-                    <Link to="/#instagram-reklam">Instagram Reklamları</Link>
-                    <Link to="/#linkedin-reklam">Linkedin Reklamları</Link>
+                    <Link to="/facebook-reklam-optimizasyonu">Facebook Reklamları</Link>
+                    <Link to="/instagram-reklam-optimizasyonu">Instagram Reklamları</Link>
+                    <Link to="/linkedin-reklam-optimizasyonu">LinkedIn Reklamları</Link>
                   </div>
                 )}
               </div>
-              <Link to="/#sosyal-medya">Sosyal Medya Reklamları</Link>
+              <Link to="/sosyal-medya-reklamlari">Sosyal Medya Reklamları</Link>
               <Link to="/#local-seo">Google Local SEO</Link>
               <Link to="/#iys">İYS Çözümleri</Link>
               <Link to="/#dijital-pazarlama">Dijital Pazarlama</Link>
