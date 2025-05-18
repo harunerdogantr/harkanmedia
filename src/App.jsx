@@ -20,6 +20,12 @@ import SearchOptimization from './pages/SearchOptimization';
 import InstagramAds from './pages/InstagramAds';
 import LinkedInAds from './pages/LinkedInAds';
 import SocialMediaAds from './pages/SocialMediaAds';
+import GoogleLocalSeo from './pages/GoogleLocalSeo';
+import IysCozumleri from './pages/IysCozumleri';
+import DijitalPazarlama from './pages/DijitalPazarlama';
+import WebAnalitik from './pages/WebAnalitik';
+import MobilAnalitik from './pages/MobilAnalitik';
+import Calismalarimiz from './pages/Calismalarimiz';
 
 function App() {
   return (
@@ -49,6 +55,12 @@ function App() {
           <Route path="/instagram-reklam-optimizasyonu" element={<InstagramAds />} />
           <Route path="/linkedin-reklam-optimizasyonu" element={<LinkedInAds />} />
           <Route path="/sosyal-medya-reklamlari" element={<SocialMediaAds />} />
+          <Route path="/google-local-seo" element={<GoogleLocalSeo />} />
+          <Route path="/iys-cozumleri" element={<IysCozumleri />} />
+          <Route path="/dijital-pazarlama" element={<DijitalPazarlama />} />
+          <Route path="/web-analitik" element={<WebAnalitik />} />
+          <Route path="/mobil-analitik" element={<MobilAnalitik />} />
+          <Route path="/calismalarimiz" element={<Calismalarimiz />} />
         </Routes>
         <Footer />
       </div>

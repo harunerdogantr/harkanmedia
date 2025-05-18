@@ -174,17 +174,16 @@ function Navbar() {
                 )}
               </div>
               <Link to="/sosyal-medya-reklamlari">Sosyal Medya Reklamları</Link>
-              <Link to="/#local-seo">Google Local SEO</Link>
-              <Link to="/#iys">İYS Çözümleri</Link>
-              <Link to="/#dijital-pazarlama">Dijital Pazarlama</Link>
-              <Link to="/#web-analitik">Web Analitiği</Link>
-              <Link to="/#mobil-analitik">Mobil Analitiği</Link>
-              <Link to="/#tum-hizmetler">Tüm Hizmetlerimiz</Link>
+              <Link to="/google-local-seo">Google Local SEO</Link>
+              <Link to="/iys-cozumleri">İYS Çözümleri</Link>
+              <Link to="/dijital-pazarlama">Dijital Pazarlama</Link>
+              <Link to="/web-analitik">Web Analitiği</Link>
+              <Link to="/mobil-analitik">Mobil Analitiği</Link>
             </div>
           )}
         </div>
 
-        <Link to="/#portfolio">Çalışmalarımız</Link>
+        <Link to="/calismalarimiz">Çalışmalarımız</Link>
         <Link to="/#contact">İletişim</Link>
       </div>
 
