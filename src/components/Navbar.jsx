@@ -41,7 +41,7 @@ function Navbar() {
           }}
         >
           <div className="nav-item">
-            <Link to="/hakkimizda">Bizi Tanıyın {downArrowSVG}</Link>
+            <div className="nav-link" style={{ fontSize: '1.1rem', fontWeight: 700 }}>Bizi Tanıyın {downArrowSVG}</div>
           </div>
           {dropdownOpen && (
             <div className="dropdown-menu">
@@ -66,7 +66,7 @@ function Navbar() {
           }}
         >
           <div className="nav-item">
-            <Link to="/#what-we-do">Neler Yapıyoruz ? {downArrowSVG}</Link>
+            <div className="nav-link" style={{ fontSize: '1.1rem', fontWeight: 700 }}>Neler Yapıyoruz ? {downArrowSVG}</div>
           </div>
           {whatWeDoOpen && (
             <div className="dropdown-menu">
@@ -142,7 +142,7 @@ function Navbar() {
           }}
         >
           <div className="nav-item">
-            <Link to="/#services">Hizmetlerimiz {downArrowSVG}</Link>
+            <div className="nav-link" style={{ fontSize: '1.1rem', fontWeight: 700 }}>Hizmetlerimiz {downArrowSVG}</div>
           </div>
           {hizmetlerimizOpen && (
             <div className="dropdown-menu">
@@ -183,8 +183,8 @@ function Navbar() {
           )}
         </div>
 
-        <Link to="/calismalarimiz">Çalışmalarımız</Link>
-        <Link to="/#contact">İletişim</Link>
+        <Link to="/calismalarimiz" style={{ fontSize: '1.1rem', fontWeight: 700 }}>Çalışmalarımız</Link>
+        <Link to="/#contact" style={{ fontSize: '1.1rem', fontWeight: 700 }}>İletişim</Link>
       </div>
 
       <button className="offer-btn">

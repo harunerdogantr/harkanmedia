@@ -1,7 +1,17 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function FacebookAds() {
   const [currentStep, setCurrentStep] = useState(1);
+
+  useEffect(() => {
+    // Add visible class to trigger animations
+    const header = document.querySelector('.page-header');
+    if (header) {
+      setTimeout(() => {
+        header.classList.add('visible');
+      }, 100);
+    }
+  }, []);
 
   const handleNextStep = () => {
     setCurrentStep(2);

@@ -73,9 +73,9 @@ body {
   position: relative;
 }
 
-.nav-links a {
+.nav-links a, .nav-link {
   color: #23272F;
-  font-size: 1.08rem;
+  font-size: 1.1rem;
   font-weight: 700;
   text-decoration: none;
   display: flex;
@@ -84,9 +84,10 @@ body {
   position: relative;
   transition: color 0.2s;
   white-space: nowrap;
+  letter-spacing: 0.2px;
 }
 
-.nav-links a:hover {
+.nav-links a:hover, .nav-link:hover {
   color: #FF6B2C;
 }
 
@@ -1577,7 +1578,7 @@ a[href^="mailto:"]:hover {
 .about-section {
   padding: 0 300px;
   background-color: #fff;
-  margin-top: 210px;
+  margin-top: 80px;
   margin-bottom: 80px;
 }
 
@@ -1588,7 +1589,22 @@ a[href^="mailto:"]:hover {
 
 .about-header {
   text-align: center;
-  margin-bottom: 200px;
+  margin-top: 250px;
+  margin-bottom: 190px;
+  opacity: 0;
+  transform: translateY(-30px);
+  animation: slideDown 0.8s ease-out forwards;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .about-header h1 {
@@ -1667,17 +1683,12 @@ a[href^="mailto:"]:hover {
 @media (max-width: 1400px) {
   .about-section {
     padding: 0 150px;
-    margin-top: 190px;
   }
 }
 
 @media (max-width: 992px) {
   .about-section {
     padding: 0 100px;
-    margin-top: 170px;
-  }
-  .about-header {
-    margin-bottom: 120px;
   }
   .about-content-wrapper {
     flex-direction: column;
@@ -1694,11 +1705,7 @@ a[href^="mailto:"]:hover {
 @media (max-width: 768px) {
   .about-section {
     padding: 0 50px;
-    margin-top: 150px;
     margin-bottom: 60px;
-  }
-  .about-header {
-    margin-bottom: 80px;
   }
   .about-header h1 {
     font-size: 36px;
@@ -1714,7 +1721,34 @@ a[href^="mailto:"]:hover {
 @media (max-width: 576px) {
   .about-section {
     padding: 0 30px;
-    margin-top: 130px;
     margin-bottom: 40px;
   }
+}
+
+/* Page Header Styles */
+.page-header {
+  text-align: center;
+  margin-bottom: 80px;
+  padding-top: 80px;
+}
+
+.page-header h1 {
+  font-size: 48px;
+  color: #FF3B1D;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+.page-breadcrumb {
+  color: #666;
+  font-size: 16px;
+}
+
+.page-breadcrumb .separator {
+  margin: 0 10px;
+  color: #ff4a4a;
+}
+
+.page-breadcrumb .active {
+  color: #ff4a4a;
 }
