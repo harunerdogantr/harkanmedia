@@ -40,7 +40,6 @@ function Services() {
     <section className="services">
       <div className="services-header">
         <div className="services-title-area">
-          <div className="services-title-bar" />
           <h2 className="services-title">Hizmetlerimiz</h2>
         </div>
         <button className="services-all-btn">TÜMÜ</button>
@@ -52,7 +51,6 @@ function Services() {
             <ServiceIcon name={service.iconName} />
             <h3 className="service-title">{service.title}</h3>
             <p className="service-description">{service.description}</p>
-            <Link to={service.title === "SEO" ? "/arama-optimizasyonu" : service.title === "Facebook Reklamları" ? "/facebook-reklam-optimizasyonu" : "#"} className="service-arrow">→</Link>
           </div>
         ))}
       </div>

@@ -26,10 +26,12 @@ import DijitalPazarlama from './pages/DijitalPazarlama';
 import WebAnalitik from './pages/WebAnalitik';
 import MobilAnalitik from './pages/MobilAnalitik';
 import Calismalarimiz from './pages/Calismalarimiz';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="app">
         <Navbar />
         <Routes>
