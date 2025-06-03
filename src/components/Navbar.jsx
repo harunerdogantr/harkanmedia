@@ -75,7 +75,7 @@ function Navbar() {
                 onMouseEnter={() => setOptimizasyonOpen(true)}
                 onMouseLeave={() => setOptimizasyonOpen(false)}
               >
-                <Link to="/#optimizasyon">
+                <div className="nav-link" style={{ fontSize: '1rem', fontWeight: 500, display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%', padding: '8px 16px', color: '#333' }}>
                   Optimizasyon
                   <svg 
                     width="14" 
@@ -83,15 +83,15 @@ function Navbar() {
                     viewBox="0 0 20 20" 
                     fill="none" 
                     xmlns="http://www.w3.org/2000/svg"
-                    style={{ transform: 'rotate(-90deg)', marginLeft: 'auto' }}
+                    style={{ transform: 'rotate(-90deg)', marginLeft: '8px' }}
                   >
                     <path d="M6 8L10 12L14 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
-                </Link>
+                </div>
                 {optimizasyonOpen && (
-                  <div className="dropdown-menu right">
-                    <Link to="/facebook-reklam-optimizasyonu">Facebook Reklamları Optimizasyonu</Link>
-                    <Link to="/google-ads-optimizasyonu">Google Ads Optimizasyonu</Link>
+                  <div className="dropdown-menu right" style={{ minWidth: '250px' }}>
+                    <Link to="/facebook-reklam-optimizasyonu" style={{ padding: '8px 16px', display: 'block', fontSize: '1rem', fontWeight: 500, color: '#333' }}>Facebook Reklamları Optimizasyonu</Link>
+                    <Link to="/google-ads-optimizasyonu" style={{ padding: '8px 16px', display: 'block', fontSize: '1rem', fontWeight: 500, color: '#333' }}>Google Ads Optimizasyonu</Link>
                   </div>
                 )}
               </div>
@@ -100,7 +100,7 @@ function Navbar() {
                 onMouseEnter={() => setVeriAnaliziOpen(true)}
                 onMouseLeave={() => setVeriAnaliziOpen(false)}
               >
-                <Link to="/#veri-analizi">
+                <div className="nav-link" style={{ fontSize: '1rem', fontWeight: 500, display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%', padding: '8px 16px', color: '#333' }}>
                   Veri Analizi
                   <svg 
                     width="14" 
@@ -108,16 +108,16 @@ function Navbar() {
                     viewBox="0 0 20 20" 
                     fill="none" 
                     xmlns="http://www.w3.org/2000/svg"
-                    style={{ transform: 'rotate(-90deg)', marginLeft: 'auto' }}
+                    style={{ transform: 'rotate(-90deg)', marginLeft: '8px' }}
                   >
                     <path d="M6 8L10 12L14 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
-                </Link>
+                </div>
                 {veriAnaliziOpen && (
-                  <div className="dropdown-menu right">
-                    <Link to="/veri-analizi">Veri Analizi</Link>
-                    <Link to="/ab-testi">A / B Testi</Link>
-                    <Link to="/veri-modelleme">Veri Modelleme</Link>
+                  <div className="dropdown-menu right" style={{ minWidth: '250px' }}>
+                    <Link to="/veri-analizi" style={{ padding: '8px 16px', display: 'block', fontSize: '1rem', fontWeight: 500, color: '#333' }}>Veri Analizi</Link>
+                    <Link to="/ab-testi" style={{ padding: '8px 16px', display: 'block', fontSize: '1rem', fontWeight: 500, color: '#333' }}>A / B Testi</Link>
+                    <Link to="/veri-modelleme" style={{ padding: '8px 16px', display: 'block', fontSize: '1rem', fontWeight: 500, color: '#333' }}>Veri Modelleme</Link>
                   </div>
                 )}
               </div>
@@ -152,7 +152,7 @@ function Navbar() {
                 onMouseEnter={() => setGoogleReklamOpen(true)}
                 onMouseLeave={() => setGoogleReklamOpen(false)}
               >
-                <Link to="/#google-reklam">
+                <div className="nav-link" style={{ fontSize: '1rem', fontWeight: 500, display: 'flex', alignItems: 'center', justifyContent: 'space-between', width: '100%', padding: '8px 16px', color: '#333' }}>
                   Google Reklamları
                   <svg 
                     width="14" 
@@ -160,16 +160,16 @@ function Navbar() {
                     viewBox="0 0 20 20" 
                     fill="none" 
                     xmlns="http://www.w3.org/2000/svg"
-                    style={{ transform: 'rotate(-90deg)', marginLeft: 'auto' }}
+                    style={{ transform: 'rotate(-90deg)', marginLeft: '8px' }}
                   >
                     <path d="M6 8L10 12L14 8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
-                </Link>
+                </div>
                 {googleReklamOpen && (
-                  <div className="dropdown-menu right">
-                    <Link to="/facebook-reklam-optimizasyonu">Facebook Reklamları</Link>
-                    <Link to="/instagram-reklam-optimizasyonu">Instagram Reklamları</Link>
-                    <Link to="/linkedin-reklam-optimizasyonu">LinkedIn Reklamları</Link>
+                  <div className="dropdown-menu right" style={{ minWidth: '250px' }}>
+                    <Link to="/facebook-reklam-optimizasyonu" style={{ padding: '8px 16px', display: 'block', fontSize: '1rem', fontWeight: 500, color: '#333' }}>Facebook Reklamları</Link>
+                    <Link to="/instagram-reklam-optimizasyonu" style={{ padding: '8px 16px', display: 'block', fontSize: '1rem', fontWeight: 500, color: '#333' }}>Instagram Reklamları</Link>
+                    <Link to="/linkedin-reklam-optimizasyonu" style={{ padding: '8px 16px', display: 'block', fontSize: '1rem', fontWeight: 500, color: '#333' }}>LinkedIn Reklamları</Link>
                   </div>
                 )}
               </div>
