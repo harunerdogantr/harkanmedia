@@ -35,6 +35,26 @@ function App() {
       <Router>
         <ScrollToTop />
         <div className="app">
+          <Helmet>
+            <title>Harkan Media - Dijital Pazarlama ve Danışmanlık</title>
+            <meta name="description" content="Harkan Media ile dijital dünyada öne çıkın. SEO, sosyal medya yönetimi, Google Ads, Facebook Ads ve daha fazlası için profesyonel dijital pazarlama hizmetleri." />
+            <meta name="keywords" content="dijital pazarlama, SEO, sosyal medya, Google Ads, Facebook Ads, Instagram Ads, LinkedIn Ads, web analitik, mobil analitik, Harkan Media" />
+            
+            {/* Open Graph / Facebook */}
+            <meta property="og:type" content="website" />
+            <meta property="og:url" content="https://harkanmedia.vercel.app/" />
+            <meta property="og:title" content="Harkan Media - Dijital Pazarlama ve Danışmanlık" />
+            <meta property="og:description" content="Harkan Media ile dijital dünyada öne çıkın. Profesyonel dijital pazarlama ve danışmanlık hizmetleri." />
+            
+            {/* Twitter */}
+            <meta property="twitter:card" content="summary_large_image" />
+            <meta property="twitter:url" content="https://harkanmedia.vercel.app/" />
+            <meta property="twitter:title" content="Harkan Media - Dijital Pazarlama ve Danışmanlık" />
+            <meta property="twitter:description" content="Harkan Media ile dijital dünyada öne çıkın. Profesyonel dijital pazarlama ve danışmanlık hizmetleri." />
+            
+            {/* Canonical URL */}
+            <link rel="canonical" href="https://harkanmedia.vercel.app/" />
+          </Helmet>
           <Navbar />
           <Routes>
             <Route path="/" element={

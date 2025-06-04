@@ -1,6 +1,3 @@
 User-agent: *
 Allow: /
-Disallow: /admin/
-Disallow: /private/
-
-Sitemap: https://harkanmedia.com/sitemap.xml 
+Sitemap: https://harkanmedia.vercel.app/sitemap.xml 
