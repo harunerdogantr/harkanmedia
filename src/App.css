@@ -1671,7 +1671,7 @@ body {
 .footer-logo {
   width: 200px;
   height: auto;
-  filter: brightness(0) invert(1);
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(346deg) brightness(118%) contrast(119%);
 }
 
 .footer-description {

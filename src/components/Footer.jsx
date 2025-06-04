@@ -7,7 +7,7 @@ function Footer() {
         {/* Company Info Section */}
         <div className="footer-company">
           <div className="footer-branding">
-            <img src="/src/ca2a4b0e-f83d-4f14-9bbd-7f83bba6df9c.png" alt="Harkan Medya" className="footer-logo" />
+            <img src="/images/harkan-logo.png" alt="Harkan Medya" className="footer-logo" />
             <p className="footer-description">
               Harkan Yazılım, Medya ve Danışmanlık
             </p>
