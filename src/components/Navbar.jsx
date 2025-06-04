@@ -1,5 +1,5 @@
-import { useState, useRef } from 'react';
-import { Link } from 'react-router-dom';
+import { useState, useRef, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,11 +9,17 @@ function Navbar() {
   const [veriAnaliziOpen, setVeriAnaliziOpen] = useState(false);
   const [hizmetlerimizOpen, setHizmetlerimizOpen] = useState(false);
   const [googleReklamOpen, setGoogleReklamOpen] = useState(false);
+  const location = useLocation();
 
   // UseRef for dropdown timeouts
   const dropdownTimeout = useRef();
   const whatWeDoTimeout = useRef();
   const hizmetlerimizTimeout = useRef();
+
+  // Close mobile menu when route changes
+  useEffect(() => {
+    setIsMenuOpen(false);
+  }, [location]);
 
   const downArrowSVG = (
     <svg width="14" height="14" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
