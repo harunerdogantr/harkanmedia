@@ -16,9 +16,15 @@ function Navbar() {
   const whatWeDoTimeout = useRef();
   const hizmetlerimizTimeout = useRef();
 
-  // Close mobile menu when route changes
+  // Reset all states when location changes
   useEffect(() => {
     setIsMenuOpen(false);
+    setDropdownOpen(false);
+    setWhatWeDoOpen(false);
+    setOptimizasyonOpen(false);
+    setVeriAnaliziOpen(false);
+    setHizmetlerimizOpen(false);
+    setGoogleReklamOpen(false);
   }, [location]);
 
   const downArrowSVG = (
